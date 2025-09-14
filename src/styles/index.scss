@@ -81,7 +81,10 @@ html { color-scheme: dark light; }
 /* ---------------------------
    GLOBAL & LAYOUT
 ----------------------------*/
-html, body, #root { background: var(--bg); min-height: 100%; }
+html, body, #root {
+  min-height: 100vh;
+  background: var(--bg);
+}
 body { color: var(--text); margin: 0; }
 ::selection { background: var(--hl-bg); color: var(--hl-fg); }
 
@@ -93,6 +96,35 @@ h1, h2 { color: var(--text); font-family: monospace; }
 /* Navbar & tabs */
 .navbar { background-color: var(--bg-elevated); }
 .navbar-item, .navbar-link { color: var(--text); }
+.navbar.is-wrap {
+  background: var(--bg-elevated);
+  padding: .5rem;
+}
+.navbar.is-wrap .navbar-start {
+  display: flex;
+  flex-wrap: wrap;         /* key line */
+  align-items: center;
+  gap: .5rem;              /* consistent spacing between items */
+}
+
+/* Tighter items so they pack nicely when wrapped */
+.navbar.is-wrap .navbar-item {
+  padding: 0;              /* remove bulky navbar padding */
+}
+
+/* Let grouped controls wrap too (Bulma buttons/fields) */
+.navbar.is-wrap .field.has-addons,
+.navbar.is-wrap .buttons.has-addons {
+  flex-wrap: wrap;
+  gap: .25rem;
+}
+
+/* Keep control heights consistent (buttons, selects, inputs) */
+.navbar.is-wrap .button,
+.navbar.is-wrap .input {
+  height: 2.25rem;         /* matches Bulma default button height */
+  line-height: 2.25rem;
+}
 
 /* Optional: keep tabs readable across themes */
 .tabs a { color: var(--text); }
