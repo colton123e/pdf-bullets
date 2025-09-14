@@ -30,14 +30,14 @@
     -->
     <title>AF Bullet Shaping Tool</title>
 
-        <!-- First paint: default dark; flip to light if OS prefers light -->
+    <!-- Dark-first default; flips if data-theme="light" -->
     <style>
-      html { background:#14161A; color:#f2f3f5; }
-      body { background:inherit; color:inherit; margin:0; }
-      @media (prefers-color-scheme: light) {
-        html { background:#ffffff; color:#111111; }
+      html, body { background: #14161A; color: #f2f3f5; }
+      html[data-theme="light"], html[data-theme="light"] body {
+        background: #ffffff; color: #111111;
       }
     </style>
+
     <!-- Apply saved manual theme before React/CSS loads (no flash) -->
     <script>
       (function () {
