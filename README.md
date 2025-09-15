@@ -1,4 +1,12 @@
 # Bullet Shaping and Iteration Tool
+## About this fork
+This project is a fork of [AF-VCD/pdf-bullets](https://github.com/AF-VCD/pdf-bullets).  
+All credit for the original app goes to the AF-VCD team.  
+
+This fork adds:
+- Improved dark mode + theme picker
+- Dependency updates for security
+
 
 ## :exclamation: August 2024 Update
 
