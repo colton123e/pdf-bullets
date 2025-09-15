@@ -1,8 +1,8 @@
 {
+  "homepage": "https://colton123e.github.io/pdf-bullets/",
   "name": "pdf-bullets-cra",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://colton123e.github.io/pdf-bullets/",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
