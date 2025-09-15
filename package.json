@@ -26,7 +26,7 @@
     "@handsontable/react": "^14.5.0",
     "bulma": "^1.0.2",
     "draft-js": "^0.11.7",
-    "handsontable": "^14.5.0",
+    "handsontable": "^16.0.1",
     "immutability-helper": "^3.1.1",
     "react": "^18.3.1",
     "react-contenteditable": "^3.3.7",
