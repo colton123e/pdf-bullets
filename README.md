@@ -7,6 +7,7 @@ This fork adds:
 - Improved dark mode + theme picker
 - Dependency updates for security
 
+# Original README Content Below
 
 ## :exclamation: August 2024 Update
 
