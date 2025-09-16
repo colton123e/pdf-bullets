@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pdf-bullets/static/css/main.36db280d.css",
+    "main.js": "/pdf-bullets/static/js/main.f45d1611.js",
+    "static/media/abbrs.xlsx": "/pdf-bullets/static/media/abbrs.ebd0e99b743c4acac912.xlsx",
+    "index.html": "/pdf-bullets/index.html",
+    "main.36db280d.css.map": "/pdf-bullets/static/css/main.36db280d.css.map",
+    "main.f45d1611.js.map": "/pdf-bullets/static/js/main.f45d1611.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36db280d.css",
+    "static/js/main.f45d1611.js"
+  ]
+}
